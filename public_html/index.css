@@ -1,0 +1,114 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header*/
+#topo {
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+/*Conteudo do header*/
+#conteudoTopo {
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+#conteudoTopo li{
+    padding: 4px 14px;
+    margin: 0 1%;
+    width: 30%;
+}
+
+/*logo*/
+#conteudoTopo li img {
+    margin: 3% 0;
+}
+
+#conteudoTopo li p {
+    margin: 3% 4% ;
+}
+
+#conteudoTopo li p:hover {
+    transition: 0.6s;
+    cursor: pointer;
+    color: #ff6600;
+}
+
+
+/*lado esquerdo do header contato*/
+.imagemContato{
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    margin: 6% 4%;
+    display: flex;
+    float: left;
+}
+
+/*Header referente ao Botao Href*/
+#conteudoTopo li a {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    padding: 6px 36px 6px 36px;
+    border: 2px solid #cccccc; 
+    background-color: white;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ff6600;
+    margin: 6% 4%;
+    float: right;
+}
+
+#conteudoTopo li a:hover {
+    background-color: rgb(255, 136, 32);
+    border: 2px solid rgb(255, 136, 32);
+    transition: 0.6s;
+    color: white;
+}
+
+/*inicio do menu*/
+
+#menu {
+    background-color: whitesmoke;
+    height: 53px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* lista de conteudo no menu*/
+.conteudoMenu {
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    width: 50%;
+}
+
+
+/* estilos das letras do menu*/
+.conteudoMenu a{
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    padding: 15px 6px;
+    color: black;
+}
+
+.conteudoMenu a:hover, .conteudoMenu a:focus {
+    color:  rgb(255, 136, 32);
+    background-color: #cccccc;
+}
